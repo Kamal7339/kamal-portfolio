@@ -111,12 +111,14 @@ nav.sticky .menu-btn{
 .home{
   height: 100vh;
   width: 100%;
-  background: url("./Images/bg1.jpg") no-repeat;
-  background-size: cover;
-  background-position: center;
+  background: url("./Images/bg1.jpg") no-repeat; 
+  background-size:cover;
+   background-position: center;
   background-attachment: fixed;
   font-family: 'Ubuntu', sans-serif;
+  position: relative;
 }
+  
 .home .home-content{
   width: 90%;
   height: 100%;
@@ -526,7 +528,7 @@ footer .text span a:hover{
 }
 }
 
-@media (max-width: 500px){
+@media (min-width: 00px){
   .home .text-two{
     font-size: 55px;
   }
@@ -537,4 +539,9 @@ footer .text span a:hover{
     font-size: 50px;
     color: #4070f4;
   }
+}
+@media only screen and (min-width:400px){
+  
+}
+  
 }
